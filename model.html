@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main-parent {
+        background-color: black;
+        height: 800px;
+        border: 12px red solid;
+        color: aliceblue  !important;
+      }
+      .child1 {
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+      }
+      .child2 {
+        height: 160px;
+      }
+      .child3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+      }
+      li {
+        list-style: none;
+        margin: 2px 40px;
+      }
+      .subchild1-B a {
+        text-decoration: none;
+      }
+      .subchild1-B ul {
+        display: flex;
+      }
+      h1 {
+        margin: 0px;
+        padding: 10px 30px;
+        font-size: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-parent">
+      <div class="child1">
+        <div class="subchild1-A">
+          <h2>LOGO</h2>
+        </div>
+        <div class="subchild1-B">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="child2">
+        <h1>
+          LiLA <br />
+          Second heafing
+        </h1>
+      </div>
+      <div class="child3">
+        <div class="child3_A">
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+            nesciunt.
+          </p>
+          <button>this is button</button>
+        </div>
+        <div class="child3_B">
+<ul>
+    <li><span>A</span></li>
+    <li><span>A</span></li>
+    <li><span>A</span></li>
+    <li><span>A</span></li>
+    <li><span>A</span></li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

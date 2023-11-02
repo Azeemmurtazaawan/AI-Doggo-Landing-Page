@@ -1,0 +1,271 @@
+.childA2 ul li{
+    list-style: none;
+margin: 20px;
+}
+.child1{
+    display:flex; 
+}
+.childA11{
+    position: absolute;
+    top: -200px;
+    left:-10px;
+    z-index: -1;
+}
+.childA2 ul{
+    display: flex;
+    align-items: center;
+    height:100%;
+    margin: 0%;
+    color: #000;
+
+
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.childA2{
+    color: #000;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 60px;
+   margin-left: 60px;
+
+
+
+
+}
+.child2 {display: flex;
+    gap:24px;
+    align-items: center;
+    margin-right: 16px;
+    
+}
+.b{
+    background-color: #F6844D;
+    color: aliceblue;
+    width: 80px;
+    height: 27px;
+    border-radius: 10px;
+}
+.c{
+    color: #000;
+
+    font-family: MuseoModerno;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0%;
+}
+.d{
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 60px;
+    color:#00C27A;
+    margin: 0%;
+}
+.e{
+    font-family: 'MuseoModerno';
+    color:black;
+    margin: 0%;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.f{
+    
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 700px;
+text-align:justify ;
+}
+button{
+    background-color:#F6844D;
+    color: azure;
+    border-radius: 10px;
+     
+    height: 40px;
+     
+     display: inline-flex;
+      padding: 22px 69px;
+justify-content: center;
+align-items: center;
+
+    
+}
+.child3{
+    padding:70px 90px ;
+    
+    
+}
+.child4 img{
+    position: absolute;
+    top: -96px;
+  
+    right:0px;
+    width: 952px;
+    /* height: 700px; */
+    z-index: -1;
+
+   
+   
+    direction: flex;
+    
+}
+.parent1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.child5 {
+    position: absolute;
+    top:570px;
+    left:720px;
+    }
+    .child5 img{
+        height: 400px;
+        width: 200px;
+        
+    }
+    .baby1{
+        position: absolute;
+        right:620px;
+        top: 300px;
+        
+    
+
+    }
+    .baby2{
+        position: absolute;
+        top: 550px;
+        right:650px;
+    }
+    .baby3{
+        position: relative;
+        top:380px;
+        right:420px;
+    }
+    .baby4{
+        position: absolute;
+        top: 400px;
+        right:350px;
+        z-index: -1;
+    }
+    .baby5{
+        position: absolute;
+        top: 550px;
+        right:200px;
+        z-index: -1;
+    }
+    .baby6{
+        
+        position: absolute;
+        top:700px;
+        z-index: -1;
+        right:400px;
+       
+
+    }
+    .subchild{
+        
+        font-family: 'MuseoModerno';
+        
+        font-size: 28px;
+       font-style: normal;
+    font-weight: 400;
+     line-height: normal;
+width: 700px;
+text-align:justify ;
+        
+        
+    }
+    .subchildA{
+       
+        margin-top: 30px;
+        font-family: Poppins;
+        font-size: 28px;
+        
+        font-weight: 400;
+        
+        width: 700px;
+        
+    }
+    .dady{
+        
+        display: flex;
+        justify-content:flex-end;
+        margin-bottom: 200px;
+        
+    }
+    .parent2{
+        
+        margin-top: -230PX;
+        position: relative;
+    } 
+    .parent3{
+        display: flex;
+       margin-top: 230px;
+       
+       
+       
+
+    }
+
+    .subchildA p {
+        margin: 0;
+    }
+    .subchild p{
+        margin:0;
+    }
+    .g{
+        color: #000;
+
+        font-family: MuseoModerno;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px; /* 175% */
+        text-transform: uppercase;
+    }
+    .h{
+        color: #000;
+
+        font-family: MuseoModerno;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px; 
+        text-transform: uppercase;
+
+    }
+    .i{
+        color: #000;
+
+font-family: MuseoModerno;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 175% */
+text-transform: uppercase;
+
+    }
+    .mommy p{
+        color: #000;
+
+font-family: MuseoModerno;
+font-size: 38px;
+font-style: normal;
+font-weight: 900;
+line-height: 70px;
+
+    }
