@@ -24,6 +24,9 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+
+
 .childA2{
     color: #000;
 }
@@ -108,13 +111,12 @@ align-items: center;
     
     
 }
-.child4 img{
+.child4 img:first-child{
     position: absolute;
     top: -96px;
   
     right:0px;
     width: 952px;
-    /* height: 700px; */
     z-index: -1;
 
    
@@ -122,9 +124,35 @@ align-items: center;
     direction: flex;
     
 }
+.footImg{
+    position: absolute !important;
+    z-index: 3 !important;
+}
+.Ba{
+    
+
+    right: 180px;
+    top:1px;
+    transform: rotate(33deg);
+
+}
+.Bb{
+    top:9px;
+    right: 90px;
+    
+    transform:rotate(27deg);
+
+}
+.Bc{
+    top:80px;
+    left: 50%;
+    transform:rotate(127deg);
+
+}
 .parent1{
     display: flex;
     justify-content: space-between;
+    margin-left: 90px;
     
 }
 .child5 {
@@ -205,6 +233,7 @@ text-align:justify ;
         display: flex;
         justify-content:flex-end;
         margin-bottom: 200px;
+        margin-left: 80px;
         
     }
     .parent2{
@@ -267,5 +296,164 @@ font-size: 38px;
 font-style: normal;
 font-weight: 900;
 line-height: 70px;
+margin-left: 40px;
 
     }
+    .div1{
+        position: relative;
+    }
+    .boi1{
+        position: absolute;
+       
+        right: 0px;
+        top:0px;
+        bottom: 10px;
+        width: 819px;
+        height: 216px;
+
+    }
+    .boi3{position: absolute;
+        width: 600px;
+        height: 700px;
+        right:0px;
+        left: 35%;
+        top:108px
+        
+        
+
+    }
+    .boi4{
+        position: absolute;
+        right:0px;
+        top:0px;
+        background-color:#373532;
+        z-index: -1;
+      
+    }
+    .boi3 img{
+        width:600px;
+        height: 600px;
+    }
+    .boi2{
+        position: absolute;
+        
+         
+    }
+    .boi4 img{
+        width:450px;
+        height: 704px;
+        
+    }
+    .boi1{
+        width:900px;
+        height: 110px;
+    }
+    .boi2 img{
+        width: 547px;
+    }
+    .boi5{
+        position: absolute;
+        top:518px;
+        left:2%;
+        
+        
+    }
+    .boi6{
+        position: absolute;
+        top:480px;
+        left:18%;
+    }
+    .boi6 img{
+        width: 203px;
+        height: 235px;
+    }
+    .boi5 img{
+
+        width: 200px;
+        height: 200px;
+    }
+    .boi7{
+        position: absolute;
+        right: 90px;
+        transform: rotate(270deg);
+        top: -90px;
+        z-index: -1;
+        
+       
+
+    }
+    .boi7 img{
+        height: 200px;
+
+
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .last1 p{
+        color: #000;
+
+        text-align: center;
+          font-family: Poppins;
+         font-size: 28px;
+             font-style: normal;
+           font-weight: 400;
+          line-height: normal;   
+    }
+    .last1{
+        display: flex ;
+        flex-direction: row-reverse;
+    }
+    .last2{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    .aa{
+        position: absolute;
+        top:-100px;
+         right:270px;
+         
+
+    }
+    
+    .aa{
+        width: 200px;
+        height: 200px;
+    }
+    .bb{
+        position:absolute;
+        flex-shrink: 0;
+        width: 1570px;
+        height: 421px;
+        z-index: -1;
+        
+       
+    }
+    .mommy{
+        margin-bottom: 200px;
+
+
+    }
+    .x{margin-top: 200px;
+        margin-left: 50px;
+        width: 269px;
+        height: 140px;
+         
+        
+         
+        
+        
+        
+        
+    }
+    .y{
+        margin-top: 210px;
+        margin-left: 500px;
+        width: 659px;
+        height: 168px;
+        
+    }
+
